@@ -39,5 +39,5 @@ module.exports = Movie;
 // Ensure Movie is the model created from MovieSchema
 Movie.updateOne({ title: "Rocky" }, {
     imageUrl: 'https://www.slashfilm.com/img/gallery/rocky-movies-ranked/8-rocky-iv-1630002709.jpg',
-    description: 'Rocky Balboa, a small-time boxer, gets a supremely rare chance to fight the heavy-weight champion, Apollo Creed, in a bout in which he strives to go the distance for his self-respect.'
+    description: 'Rocky and drago'
 }).then(result => console.log('Updated Rocky')).catch(err => console.log(err));
