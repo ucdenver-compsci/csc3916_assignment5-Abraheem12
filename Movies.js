@@ -45,7 +45,7 @@ Movie.countDocuments((err, count) => {
                 releaseDate: new Date(1976, 11, 21), // Note: Months are 0-indexed in JavaScript Dates (0 = January, 11 = December)
                 genre: 'Drama',
                 actors: [{ actorName: 'Sylvester Stallone', characterName: 'Rocky Balboa' }],
-                imageUrl: 'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2018_50/2684041/121214-bruce-willis-die-hard-christmas-mn-1435.jpg',
+                imageUrl: 'https://www.slashfilm.com/img/gallery/rocky-movies-ranked/8-rocky-iv-1630002709.jpg',
                 description: 'A small-time boxer gets a supremely rare chance to fight the heavy-weight champion in a bout where he strives for his self-respect.'
             },
             {
