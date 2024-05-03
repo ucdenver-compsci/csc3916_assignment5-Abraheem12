@@ -26,7 +26,8 @@ const MovieSchema = new Schema({
         actorName: String,
         characterName: String,
     }],
-    imageUrl: { type: String, default: 'https://i0.wp.com/www.karmanhealthcare.com/wp-content/uploads/2017/12/902.jpg?fit=1284%2C652&ssl=1' }
+    imageUrl: { type: String, default: 'https://i0.wp.com/www.karmanhealthcare.com/wp-content/uploads/2017/12/902.jpg?fit=1284%2C652&ssl=1' },
+    description: { type: String, default: 'No description available.' }
 });
 
 

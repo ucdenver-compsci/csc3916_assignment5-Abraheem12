@@ -34,8 +34,7 @@ const apiKey = process.env.api_Key;// load up the api that i created in google a
 console.log(`Loaded Measurement Protocol ID: ${process.env.measurement_id}`);
 console.log(`Loaded API Key: ${process.env.apiKey}`);
 
-console.log(`Loaded Measurement Protocol ID: ${measurement_id}`);
-console.log(`Loaded API Key: ${apiKey}`);
+
 
 
 
