@@ -158,10 +158,11 @@ router.route('/movies/:id?')
                     }
                 },
                 {
-                    $addFields: { // Add a new field to the document
+                    $addFields: { 
                         avgRating: { $avg: "$reviews.rating" }
                     }
                 },
+                { $sort: { avgRating: -1 } }
             ]).exec(function (err, result) {
                 if (err) {
                     res.send(err);
